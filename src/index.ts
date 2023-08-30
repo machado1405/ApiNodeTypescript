@@ -1,4 +1,5 @@
-import { server } from "./server/server";
+import { server } from './server/server';
 
-server.listen(3333, () => {console.log('API rodando!');
+server.listen(3333, () => {
+  console.log('API rodando!');
 });
